@@ -93,7 +93,7 @@ module PATTERN_DEDECTOR (
                 begin
                     // counter = 2'b00;
                     // pattern_counter = n_pattern;
-                    // Pattern_Found = 0;
+                    Pattern_Found = 0;
                     // pattern = 0;
                     NS = WAIT_STATE;
                 end
