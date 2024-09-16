@@ -1,5 +1,6 @@
 # Weighted Moving Average Filter Documentation
-**Submited by:** Amr Hossam
+**Submited by:** Amr Hossam \
+**GitHub Repo:** https://github.com/amrhossam9/ADI_Assignments
 
 ## Assignment Overview
 
@@ -37,9 +38,25 @@ The **Filter** module takes an 8-bit input signal and applies a weighted moving 
 ## Wave form
 ![Waveform](./Images/waveform.png "Waveform")
 
+<br>
+
 ## Transcript
 ![Transcript](./Images/transcript.png "Transcript")
 ---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### Verilog Code:
 ```verilog
@@ -77,6 +94,21 @@ endmodule
 ```
 
 ---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Testbench for Filter
 
