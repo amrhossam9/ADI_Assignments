@@ -39,9 +39,6 @@ This document focuses on the **RAM** and **ROM** slave components for the AHB-Li
 - `HCLK`: Clock signal.
 - `HRESETn`: Active low reset signal.
 
-<br>
-<br>
-
 #### **RAM Functionality**
 - **Read Operation**: When `HWRITE` is low (`0`), the RAM reads the value stored at `HADDR` and sends it to `HRDATA`.
 - **Write Operation**: When `HWRITE` is high (`1`), data from `HWDATA` is written to the memory location specified by `HADDR`.
@@ -545,7 +542,6 @@ module ROM (
     end
 endmodule
 ```
-<br>
 
 ### **ROM Testbench**
 ```verilog
@@ -742,7 +738,6 @@ The RAM and ROM modules share a similar block structure, as they both function a
 ![Memory Block Diagram](images/Slave_interface.png)  
 
 ---
-<br>
 
 ### **Conclusion**
 In **Milestone 2**, i developed the **RAM** and **ROM** modules as AHB-Lite slaves. These components will be integrated with additional peripherals in **Milestone 3**. The decoders and multiplexors required to select and route data from multiple memory blocks will also be added during the integration phase.
